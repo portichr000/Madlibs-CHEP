@@ -9,6 +9,14 @@
         text-align: center;
 }
 
+.gray {
+    background: #B3B3B3;
+}
+
+.green {
+    background: #00CB79;
+}
+
 
 .home {
     position: relative;
@@ -122,10 +130,26 @@
         justify-self: center;
         margin-bottom: 84px;
         
+        font-family: 'Montserrat';
+        
+        &__label {
+            height: 18px;
+            width: 18px;
+            line-height: 21px;
+            background-color: black;
+            border-radius: 50%;
+            font-size: 14px;
+            text-align: center;
+            color: white;
+            display: inline-block;
+            margin: 4px;
+            
+        }
+        
         p {
            line-height: 29px;
            padding: 50px 47px;
-           font-family: 'Montserrat';
+           
            font-size: 16px;
            font-weight: 300;
         }
@@ -173,8 +197,6 @@
     
     &__number {
         grid-column: number-s/number-e;
-        
-        background-color: #00CB79;
         color: white;
         font-size: 20px;
         line-height: 26px;
@@ -184,5 +206,7 @@
         border-radius: 50%;
     }
 }
+
+
 
 
